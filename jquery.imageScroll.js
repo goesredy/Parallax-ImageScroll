@@ -216,6 +216,7 @@
         init: function () {
             if (this.image) {
                 this.$scrollingElement = $('<img/>', {
+                    role: 'presentation',
                     src: this.image
                 }).addClass(this.settings.imgClass);
             } else {
